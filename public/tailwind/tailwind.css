@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer{
+   @font-face {
+    font-family: sansiran;
+    src: url(../font/IRANSansWeb_Medium.woff2);
+    src: url(../font/IRANSansWebFaNum-Medium.eot);
+    src: url(../font/IRANSansWebFaNum-Medium.ttf);
+    src: url(../font/IRANSansWebFaNum-Medium.woff);
+   }
+   
+}
+@layer{
+    .wrapper{
+        width: 100%;
+        height: 2000px;
+        font-family: sansiran;
+    }
+   
+}
+@layer{
+     .race{
+        background-image: url(../image/image2-new-1.png);
+    }
+    @layer{
+        input[type=radio]{
+            display: block;
+        }
+    }
+}
